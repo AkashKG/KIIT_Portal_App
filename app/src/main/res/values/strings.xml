@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">KIIT_Portal</string>
+    <string name="title_activity_main">KIIT_Portal</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string-array name="tabs">
+        <item>SGPA</item>
+        <item>CGPA</item>
+    </string-array>
+</resources>

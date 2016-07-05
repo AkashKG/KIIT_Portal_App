@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8F3C9"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Design &amp; Analysis of Algortihms"
+        android:id="@+id/sub1"
+        android:layout_weight="0"
+        android:layout_marginTop="25dp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/g1"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Software Engineering"
+        android:id="@+id/sub2"
+        android:layout_weight="0"
+        android:layout_marginTop="10dp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/g2"
+        android:layout_weight="0"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Computer Networks"
+        android:id="@+id/sub3"
+        android:layout_weight="0"
+        android:layout_marginTop="10dp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/g3"
+        android:layout_weight="0"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Formal Languages &amp; Automata Theory"
+        android:id="@+id/sub4"
+        android:layout_weight="0"
+        android:layout_marginTop="10dp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/g4"
+        android:layout_weight="0"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Computer Organization &amp; Architecture"
+        android:id="@+id/sub5"
+        android:layout_weight="0"
+        android:layout_marginTop="10dp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/g5"
+        android:layout_weight="0"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Design &amp; Analysis Lab"
+        android:id="@+id/sub6"
+        android:layout_weight="0"
+        android:layout_marginTop="10dp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/g6"
+        android:layout_weight="0"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Computer Networks Lab"
+        android:id="@+id/sub7"
+        android:layout_weight="0"
+        android:layout_marginTop="10dp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/g7"
+        android:layout_weight="0"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAT-I"
+        android:id="@+id/sub8"
+        android:layout_weight="0"
+        android:layout_marginTop="10dp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/g8"
+        android:layout_weight="0"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CGPA"
+        android:id="@+id/cgpa"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0"
+        android:inputType="numberDecimal|numberSigned" />
+<!--
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get CGPA"
+        android:id="@+id/get1"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0" />
+-->
+    <info.hoang8f.widget.FButton
+
+        fbutton:buttonColor="@color/fbutton_color_belize_hole"
+        fbutton:shadowColor="@color/fbutton_color_midnight_blue"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="5dp"
+        fbutton:cornerRadius="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get CGPA"
+        android:id="@+id/get1"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0"
+        />
+
+
+</LinearLayout>
+</ScrollView>
